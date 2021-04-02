@@ -232,11 +232,11 @@ if __name__ == '__main__':
     parser.add_argument('--val_freq', type=int, default=1)
 
     parser.add_argument('--data_dir', type=str,
-                        default='/Users/quangbd/Documents/data/slu/fluent_speech_commands_dataset')
+                        default='data/fluent_speech_commands_dataset')
     parser.add_argument('--output_dir', type=str,
-                        default='/Users/quangbd/Documents/data/model/slu')
+                        default='data/model/slu')
     parser.add_argument('--pretrained_dir', type=str,
-                        default='/Users/quangbd/Documents/data/model/wav2vec2-base-960h')
+                        default='data/model/wav2vec2-base-960h')
     parser.add_argument('--pretrained_model', type=str, default='facebook/wav2vec2-base-960h')
 
     args = parser.parse_args()
