@@ -221,7 +221,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--seed', type=int, default=1234)
     parser.add_argument('--num_workers', type=int, default=2)
-    parser.add_argument('--batch_size', type=int, default=48)
+    parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument('--n_epochs', type=int, default=100)
     parser.add_argument('--lr', type=float, default=0.000005)
     parser.add_argument('--verbose', type=bool, default=True)
